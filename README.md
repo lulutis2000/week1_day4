@@ -35,3 +35,25 @@ Las funciones pueden recibir argumentos en forma de parámetros, y retornar dato
 A efecto del alcance de variables:
 - Las variables declaradas dentro de un bloque o función se denominan **locales** o **privadas**, accesibles únicamente dentro de ese contexto.
 - Las variables declaradas fuera de cualquier bloque o función se denominan **privadas** o **públicas**, accesibles desde cualquier parte del script.
+
+## Main points: string methods
+
+- **`forEach()`**
+- **`push()`**
+- **`unshift()`**
+- **`shift()`**
+- **`pop()`**
+- **`splice()`**
+
+
+## Main points: array methods
+
+- **`charAt()`**
+- **`indexOf()`**
+- **`lastIndexOf()`**
+- **`repeat()`**
+- **`substring()`**
+- **`substr()`**
+- **`slice()`**
+- **`localCompare()`**
+- **`splice()`**
