@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Js</title>
+</head>
+
+<body>
+    <script>
+
+        const drinks = ['Kas', 'Coca-cola', 'Cacaolat', 'Fanta', 'Monster', 'Kaiku', 'Nestea', 'Jagger']
+
+        // Acceder a la posición de un array
+        console.log(`La primera de las bebidas es ${drinks[0]}`)
+        console.log(`Una posición inexistente retorna ${drinks[10]}`)
+        console.log(drinks)
+
+        // Agregar un elemento al final
+        drinks[drinks.length] = 'Caciquito rico'
+        drinks.push('Baily\'s')
+        console.log(drinks)
+
+        // Agregar un elemento al principio
+        drinks.unshift('Agua')
+        console.log(drinks)
+
+        // Agregar un elemento al principio
+        drinks.splice(3, 1)
+        console.log(drinks)
+
+        // Recorrer un array mediante .forEach()
+        console.log('Lista de bebidas:')
+        drinks.forEach(elm => console.log(`Bebida ${elm}`))
+
+        // Recorrer un array mediante .forEach()
+        const users = ['Ger', 'Luz', 'Arnoldo', 'David']
+        users.forEach((eachUser, idx) => console.log(`Estamos en el índice ${idx}, y el usuario ${eachUser} está ya en clase`))
+
+        // Recorrer un array mediante .forEach()
+        const prices = [84, 62, 100, 1000, 200]
+        prices.forEach(eachPrice => console.log(`El PVP es ${eachPrice * 1.21}`))
+
+        // Comnvertir un string a array mediante .split()
+        const text = 'Lorem ipsum dolor sit amet'
+        const splittedText = text.split(' ')
+        console.log(splittedText)
+
+    </script>
+</body>
+
+</html>
